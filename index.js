@@ -187,7 +187,11 @@ const quotesArray = [
     We are Earthseed
     The life that perceives itself
     Changing.`,
-    `Chapter 13`,
+    `Chapter 13
+    
+    There is no end
+    To what a living world
+    Will demand of you.`,
     `Chapter 14
     
     In order to rise
