@@ -8,16 +8,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function newQuoteHandler() {
     let button = document.getElementById("quote-button")
-    console.log(button);
+    // console.log(button);
     button.addEventListener("click", () => {
-        console.log("button clicked!");
+        // console.log("button clicked!");
         getRandomQuote()
     })
 }
 
 function getRandomQuote() {
     let randomQuote = Math.floor(Math.random() * quotesArray.length)
-    console.log(randomQuote, quotesArray[randomQuote]);
+    // console.log(randomQuote, quotesArray[randomQuote]);
     displayQuote(quotesArray[randomQuote])
 }
 
